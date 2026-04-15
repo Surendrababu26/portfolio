@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="devStack">
+<head>
+    <link rel="preload" as="image" href="/destatic/v3/assets/img/banner/page-header.webp" fetchpriority="high">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin>
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+    <link rel="preconnect" href="https://destatic.blob.core.windows.net" crossorigin>
+    <link rel="dns-prefetch" href="https://www-devglan-com.disqus.com">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Latest Programming &amp; Technology Articles on Django from around the web | Devglan</title>
+    <link rel="canonical" href="https://www.devglan.com/programming/django-article-feeds">
+    <base href="https://www.devglan.com/">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css" as="style"
+          onload="this.rel='stylesheet'">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" as="style"
+          crossorigin onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    </noscript>
+    <style>
+        body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto}img{max-width:100%;height:auto}input,select,textarea{width:100%}.vertical-line{border-right:1px solid #ddd}#yl-breadcrumb{min-height:184px;max-height:350px;padding:50px 0;box-sizing:border-box;background-color:#0d0d1a;background-size:cover;background-position:center}@media (max-width:768px){#yl-breadcrumb{min-height:160px;max-height:230px;padding:30px 0}}
+    </style>
+    <link rel="stylesheet" href="/destatic/v3/assets/css/style-min.css?v=3">
+    <meta name="description" content="Discover latest trending and popular articles on Django from around the web at one place. All articles are curated from reliable developer sources.">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="DevGlan">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Latest Programming &amp; Technology Articles on Django from around the web | Devglan">
+    <meta property="og:description" content="Discover latest trending and popular articles on Django from around the web at one place. All articles are curated from reliable developer sources.">
+    <meta property="og:url" content="https://www.devglan.com/programming/django-article-feeds">
+    <meta property="og:site_name" content="devglan">
+    <meta property="og:image" content="https://destatic.blob.core.windows.net/images/django-logo.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Latest Programming &amp; Technology Articles on Django from around the web | Devglan">
+    <meta name="twitter:description" content="Discover latest trending and popular articles on Django from around the web at one place. All articles are curated from reliable developer sources.">
+    <meta name="twitter:image" content="https://destatic.blob.core.windows.net/images/django-logo.png">
+    <meta name="google-site-verification" content="pcGimoh7HVlCiraucWwIZYVgSleXCl0y8uewA50qq9A">
+    <meta name="yandex-verification" content="12970d855513947f">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-76NZRQKMXF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){ dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config','G-76NZRQKMXF', { send_page_view:false });
+        window.addEventListener('load', ()=> gtag('event','page_view'));
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2256439533750580"
+            crossorigin="anonymous"></script>
+    <style>
+        .popular-course-rate.clearfix.ul-li {
+            display: flex;
+            justify-content: space-between;
+        }
+        .popular-course-icon {
+            font-size: 20px;
+            color: black;
+        }
+        .popular-course-rate.clearfix.ul-li:after {
+            display: none;
+        }
+    </style>
+</head>
+<body class="yl-home">
+<div class="up">
+    <a href="#" class="scrollup text-center"><i class="fas fa-chevron-up"></i></a>
+</div>
+
+<header id="yl-header" class="yl-header-main">
+    <div class="yl-header-top clearfix mobile-logo" style="display: none; padding:0px;">
+        <div class="container">
+            <div class="yl-brand-logo float-left ">
+                <a href="https://www.devglan.com/"><img src="https://destatic.blob.core.windows.net/logos/logo-small-50.webp"
+                                             width="159" height="50"
+                                             loading="lazy" alt="Devglan Logo">
+                </a>
+            </div>
+
+            <div class="yl-mobile-menu-wrap">
+                <div class="yl-mobile_menu position-relative">
+                    <div class="yl-mobile_menu_button yl-open_mobile_menu">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <div class="yl-mobile_menu_wrap">
+                        <div class="mobile_menu_overlay yl-open_mobile_menu"></div>
+                        <div class="yl-mobile_menu_content">
+                            <div class="yl-mobile_menu_close yl-open_mobile_menu">
+                                <i class="fas fa-times"></i>
+                            </div>
+                            <div class="m-brand-logo text-center">
+                                <a href="https://www.devglan.com/"><img
+                                        src="https://destatic.blob.core.windows.net/images/logo.webp"
+                                        width="159" height="50"
+                                        loading="lazy" alt="Devglan Logo">
+                                </a>
+                            </div>
+                            <nav class="yl-mobile-main-navigation  clearfix ul-li">
+                                <ul id="m-main-nav" class="navbar-nav text-capitalize clearfix">
+                                    <li class="dropdown">
+                                        <a href="/programming/programming-tutorials" class="active">
+                                            Programming
+                                        </a>
+                                        <ul class="dropdown-menu clearfix">
+                                            <li>
+                                                <a href="programming/django-tutorials">Courses</a>
+                                            </li>
+                                            <li>
+                                                <a href="programming/django-article-feeds" class="active">Articles</a>
+                                            </li>
+                                            <li>
+                                                <a href="programming/django-books">Books</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="/testing/testing-tutorials">
+                                            Testing
+                                        </a>
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="/ai/artificial-intelligence-tutorials">
+                                            AI
+                                        </a>
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="/devops/devops-tutorials">
+                                            Devops
+                                        </a>
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="/datascience/datascience-tutorials">
+                                            DataScience
+                                        </a>
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="/design/design-tutorials">
+                                            Design
+                                        </a>
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="/feeds/programming-feeds">
+                                            DevFeed
+                                        </a>
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="/blogs">
+                                            Blogs
+                                        </a>
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="/auth/login">
+                                            Login
+                                        </a>
+                                        
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="yl-header-menu-wrap clearfix">
+        <div class="container-fluid   menu-center-cl">
+            <div class="yl-brand-logo float-left laptop-logo">
+                <a href="https://www.devglan.com/"><img src="https://destatic.blob.core.windows.net/logos/logo-small-50.webp"
+                                             width="159" height="50"
+                                             loading="lazy" alt="Devglan Logo">
+                </a>
+            </div>
+            <div class="yl-main-nav-wrap float-left">
+                <nav class="yl-main-navigation ul-li">
+                    <ul id="main-nav" class="navbar-nav text-capitalize clearfix">
+                        <li>
+                            <a href="/programming/programming-tutorials" class="active-menu">
+                                Programming
+                            </a>
+                            
+                        </li>
+                        <li>
+                            <a href="/testing/testing-tutorials">
+                                Testing
+                            </a>
+                            
+                        </li>
+                        <li>
+                            <a href="/ai/artificial-intelligence-tutorials">
+                                AI
+                            </a>
+                            
+                        </li>
+                        <li>
+                            <a href="/devops/devops-tutorials">
+                                Devops
+                            </a>
+                            
+                        </li>
+                        <li>
+                            <a href="/datascience/datascience-tutorials">
+                                DataScience
+                            </a>
+                            
+                        </li>
+                        <li>
+                            <a href="/design/design-tutorials">
+                                Design
+                            </a>
+                            
+                        </li>
+                        <li>
+                            <a href="/feeds/programming-feeds">
+                                DevFeed
+                            </a>
+                            
+                        </li>
+                        <li>
+                            <a href="/blogs">
+                                Blogs
+                            </a>
+                            
+                        </li>
+                        <li>
+                            <a href="/auth/login">
+                                Login
+                            </a>
+                            
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="yl-course-more-btn yl-headline pera-content my-1">
+                <a href="https://www.devglan.com/me/add-story">+ Add</a>
+            </div>
+        </div>
+    </div>
+    <section class="second-menu text-center">
+        <nav class="yl-main-navigation ul-li">
+            <ul id="main-nav" class="navbar-nav text-capitalize clearfix">
+                <li>
+                    <a href="programming/django-tutorials">Courses</a></li>
+                <li>
+                    <a href="programming/django-article-feeds"
+                       class="active-menu">Articles</a></li>
+                <li>
+                    <a href="programming/django-books">Books</a></li>
+            </ul>
+        </nav>
+    </section>
+</header>
+
+<section id="yl-breadcrumb" class="yl-breadcrumb-section position-relative"
+         style="background-image: url(/destatic/v3/assets/img/banner/page-header.webp);
+                   background-size:cover;
+                   background-position:center;
+                   background-repeat:no-repeat;">
+    <span class="breadcrumb-overlay position-absolute"></span>
+    <div class="container">
+        <div class="yl-breadcrumb-content text-center yl-headline">
+            <h1>Latest Programming Articles on Django from around the web.</h1>
+            <p class="more-descrption pt-1">Django is a Python-based free and open-source web framework, which follows the model-template-view architectural pattern. Django&#39;s primary goal is to ease the creation of complex, database-driven websites.</p>
+            <div class="yl-breadcrumb-item ul-li">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item" aria-current="page"><a
+                            href="https://www.devglan.com/">Home </a></li>
+                    <li class="breadcrumb-item" aria-current="page"><a
+                            href="/programming/programming-tutorials">Programming</a></li>
+                    <li class="breadcrumb-item" aria-current="page"><a
+                            href="">Django Articles</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="yl-blog-details" class="yl-blog-details-section" ng-controller="linksListController" ng-init="initialise({&quot;links&quot;:{&quot;content&quot;:[{&quot;id&quot;:15093,&quot;title&quot;:&quot;Django for Beginners&quot;,&quot;description&quot;:&quot;Build Your First Web App in few minutes Continue reading on Top Python Libraries »&quot;,&quot;baseDomain&quot;:&quot;medium.com&quot;,&quot;targetUrl&quot;:&quot;https://medium.com/top-python-libraries/django-for-beginners-d3047acb4be8?source\u003drss------django-5&quot;,&quot;localUrl&quot;:&quot;https://www.devglan.com/local/p/f2xvxebm-15093&quot;,&quot;imgUrl&quot;:&quot;https://destatic.blob.core.windows.net/logos/django-logo-ytube.webp&quot;,&quot;prop&quot;:&quot;nofollow noopener noreferrer&quot;,&quot;topics&quot;:[{&quot;value&quot;:18,&quot;label&quot;:&quot;Django&quot;,&quot;custom&quot;:false,&quot;followed&quot;:false,&quot;imgUrl&quot;:&quot;https://destatic.blob.core.windows.net/images/django-logo.png&quot;,&quot;feedUrl&quot;:&quot;programming/django-article-feeds&quot;},{&quot;value&quot;:1,&quot;label&quot;:&quot;Python&quot;,&quot;custom&quot;:false,&quot;followed&quot;:false,&quot;imgUrl&quot;:&quot;https://destatic.blob.core.windows.net/images/python-logo.png&quot;,&quot;feedUrl&quot;:&quot;programming/python-article-feeds&quot;}],&quot;upVoteCount&quot;:0,&quot;downVoteCount&quot;:0,&quot;bookmarkCount&quot;:0,&quot;basicUserInfo&quot;:{&quot;recordId&quot;:65,&quot;name&quot;:&quot;Devglan&quot;,&quot;username&quot;:&quot;devglanweb994&quot;,&quot;profileLink&quot;:&quot;https://www.linkedin.com/company/devglan/&quot;,&quot;profileImgUrl&quot;:&quot;https://www.devglan.com/favicon.ico&quot;},&quot;createdOn&quot;:&quot;1 day ago&quot;,&quot;uiId&quot;:&quot;p15093&quot;},{&quot;id&quot;:15092,&quot;title&quot;:&quot;The 2026 Django AI Stack: Async ORM + LangGraph + HTMX for Full-Stack Intelligent Apps (Complete…&quot;,&quot;description&quot;:&quot;Why This Stack is Revolutionary Continue reading on Medium »&quot;,&quot;baseDomain&quot;:&quot;medium.com&quot;,&quot;targetUrl&quot;:&quot;https://medium.com/@yogeshkrishnanseeniraj/the-2026-django-ai-stack-async-orm-langgraph-htmx-for-full-stack-intelligent-apps-complete-9c77ba396a51?source\u003drss------django-5&quot;,&quot;localUrl&quot;:&quot;https://www.devglan.com/local/p/tc8jdwbk-15092&quot;,&quot;imgUrl&quot;:&quot;https://destatic.blob.core.windows.net/logos/django-logo-ytube.webp&quot;,&quot;prop&quot;:&quot;nofollow noopener noreferrer&quot;,&quot;topics&quot;:[{&quot;value&quot;:18,&quot;label&quot;:&quot;Django&quot;,&quot;custom&quot;:false,&quot;followed&quot;:false,&quot;imgUrl&quot;:&quot;https://destatic.blob.core.windows.net/images/django-logo.png&quot;,&quot;feedUrl&quot;:&quot;programming/django-article-feeds&quot;}],&quot;upVoteCount&quot;:0,&quot;downVoteCount&quot;:0,&quot;bookmarkCount&quot;:0,&quot;basicUserInfo&quot;:{&quot;recordId&quot;:65,&quot;name&quot;:&quot;Devglan&quot;,&quot;username&quot;:&quot;devglanweb994&quot;,&quot;profileLink&quot;:&quot;https://www.linkedin.com/company/devglan/&quot;,&quot;profileImgUrl&quot;:&quot;https://www.devglan.com/favicon.ico&quot;},&quot;createdOn&quot;:&quot;1 day ago&quot;,&quot;uiId&quot;:&quot;p15092&quot;},{&quot;id&quot;:15091,&quot;title&quot;:&quot;Django App Works Locally but Not on AWS EC2&quot;,&quot;description&quot;:&quot;Deploying a Django app to AWS EC2 often feels straightforward — until everything works locally and suddenly breaks in production. One of… Continue reading on Medium »&quot;,&quot;baseDomain&quot;:&quot;medium.com&quot;,&quot;targetUrl&quot;:&quot;https://medium.com/@miguelmontanez.busines/django-app-works-locally-but-not-on-aws-ec2-fed46c03e8e5?source\u003drss------django-5&quot;,&quot;localUrl&quot;:&quot;https://www.devglan.com/local/p/zzzjtv1p-15091&quot;,&quot;imgUrl&quot;:&quot;https://destatic.blob.core.windows.net/logos/django-logo-ytube.webp&quot;,&quot;prop&quot;:&quot;nofollow noopener noreferrer&quot;,&quot;topics&quot;:[{&quot;value&quot;:18,&quot;label&quot;:&quot;Django&quot;,&quot;custom&quot;:false,&quot;followed&quot;:false,&quot;imgUrl&quot;:&quot;https://destatic.blob.core.windows.net/images/django-logo.png&quot;,&quot;feedUrl&quot;:&quot;programming/django-article-feeds&quot;}],&quot;upVoteCount&quot;:0,&quot;downVoteCount&quot;:0,&quot;bookmarkCount&quot;:0,&quot;basicUserInfo&quot;:{&quot;recordId&quot;:65,&quot;name&quot;:&quot;Devglan&quot;,&quot;username&quot;:&quot;devglanweb994&quot;,&quot;profileLink&quot;:&quot;https://www.linkedin.com/company/devglan/&quot;,&quot;profileImgUrl&quot;:&quot;https://www.devglan.com/favicon.ico&quot;},&quot;createdOn&quot;:&quot;1 day ago&quot;,&quot;uiId&quot;:&quot;p15091&quot;},{&quot;id&quot;:15090,&quot;title&quot;:&quot;Building Private RAG Apps in Django: pgvector + Hugging Face Embeddings for Secure Knowledge Bases…&quot;,&quot;description&quot;:&quot;Why Private RAG Matters in Healthcare \u0026 Enterprise Continue reading on Medium »&quot;,&quot;baseDomain&quot;:&quot;medium.com&quot;,&quot;targetUrl&quot;:&quot;https://medium.com/@yogeshkrishnanseeniraj/building-private-rag-apps-in-django-pgvector-hugging-face-embeddings-for-secure-knowledge-bases-d4179288c126?source\u003drss------django-5&quot;,&quot;localUrl&quot;:&quot;https://www.devglan.com/local/p/ofsmj9xp-15090&quot;,&quot;imgUrl&quot;:&quot;https://destatic.blob.core.windows.net/logos/django-logo-ytube.webp&quot;,&quot;prop&quot;:&quot;nofollow noopener noreferrer&quot;,&quot;topics&quot;:[{&quot;value&quot;:18,&quot;label&quot;:&quot;Django&quot;,&quot;custom&quot;:false,&quot;followed&quot;:false,&quot;imgUrl&quot;:&quot;https://destatic.blob.core.windows.net/images/django-logo.png&quot;,&quot;feedUrl&quot;:&quot;programming/django-article-feeds&quot;}],&quot;upVoteCount&quot;:0,&quot;downVoteCount&quot;:0,&quot;bookmarkCount&quot;:0,&quot;basicUserInfo&quot;:{&quot;recordId&quot;:65,&quot;name&quot;:&quot;Devglan&quot;,&quot;username&quot;:&quot;devglanweb994&quot;,&quot;profileLink&quot;:&quot;https://www.linkedin.com/company/devglan/&quot;,&quot;profileImgUrl&quot;:&quot;https://www.devglan.com/favicon.ico&quot;},&quot;createdOn&quot;:&quot;1 day ago&quot;,&quot;uiId&quot;:&quot;p15090&quot;},{&quot;id&quot;:15089,&quot;title&quot;:&quot;Building an Agentic AI Planner with Django, Celery, Redis, and OpenAI — PlanPal&quot;,&quot;description&quot;:&quot;As LLM adoption grows, the difference between AI demos and AI systems is becoming increasingly clear. Continue reading on Medium »&quot;,&quot;baseDomain&quot;:&quot;medium.com&quot;,&quot;targetUrl&quot;:&quot;https://medium.com/@deborahbalogun07/building-an-agentic-ai-planner-with-django-celery-redis-and-openai-planpal-9eb518f676d0?source\u003drss------django-5&quot;,&quot;localUrl&quot;:&quot;https://www.devglan.com/local/p/8gpaxtm3-15089&quot;,&quot;imgUrl&quot;:&quot;https://destatic.blob.core.windows.net/logos/django-logo-ytube.webp&quot;,&quot;prop&quot;:&quot;nofollow noopener noreferrer&quot;,&quot;topics&quot;:[{&quot;value&quot;:18,&quot;label&quot;:&quot;Django&quot;,&quot;custom&quot;:false,&quot;followed&quot;:false,&quot;imgUrl&quot;:&quot;https://destatic.blob.core.windows.net/images/django-logo.png&quot;,&quot;feedUrl&quot;:&quot;programming/django-article-feeds&quot;}],&quot;upVoteCount&quot;:0,&quot;downVoteCount&quot;:0,&quot;bookmarkCount&quot;:0,&quot;basicUserInfo&quot;:{&quot;recordId&quot;:65,&quot;name&quot;:&quot;Devglan&quot;,&quot;username&quot;:&quot;devglanweb994&quot;,&quot;profileLink&quot;:&quot;https://www.linkedin.com/company/devglan/&quot;,&quot;profileImgUrl&quot;:&quot;https://www.devglan.com/favicon.ico&quot;},&quot;createdOn&quot;:&quot;1 day ago&quot;,&quot;uiId&quot;:&quot;p15089&quot;},{&quot;id&quot;:15015,&quot;title&quot;:&quot;Why Most Django Projects Fail in Production (And How to Fix Yours)&quot;,&quot;description&quot;:&quot;Django is one of the most powerful and developer-friendly web frameworks ever built. Yet, a...&quot;,&quot;baseDomain&quot;:&quot;dev.to&quot;,&quot;targetUrl&quot;:&quot;https://dev.to/dythonai_info_ca83b5413b8/why-most-django-projects-fail-in-production-and-how-to-fix-yours-2dka&quot;,&quot;localUrl&quot;:&quot;https://www.devglan.com/local/p/s2vnsmf1-15015&quot;,&quot;imgUrl&quot;:&quot;https://media2.dev.to/dynamic/image/width\u003d1000,height\u003d420,fit\u003dcover,gravity\u003dauto,format\u003dauto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fj4zrxjp4kb5foizp4lc4.png&quot;,&quot;prop&quot;:&quot;nofollow noopener noreferrer&quot;,&quot;topics&quot;:[{&quot;value&quot;:18,&quot;label&quot;:&quot;Django&quot;,&quot;custom&quot;:false,&quot;followed&quot;:false,&quot;imgUrl&quot;:&quot;https://destatic.blob.core.windows.net/images/django-logo.png&quot;,&quot;feedUrl&quot;:&quot;programming/django-article-feeds&quot;}],&quot;upVoteCount&quot;:0,&quot;downVoteCount&quot;:0,&quot;bookmarkCount&quot;:0,&quot;basicUserInfo&quot;:{&quot;recordId&quot;:65,&quot;name&quot;:&quot;Devglan&quot;,&quot;username&quot;:&quot;devglanweb994&quot;,&quot;profileLink&quot;:&quot;https://www.linkedin.com/company/devglan/&quot;,&quot;profileImgUrl&quot;:&quot;https://www.devglan.com/favicon.ico&quot;},&quot;createdOn&quot;:&quot;2 days ago&quot;,&quot;uiId&quot;:&quot;p15015&quot;},{&quot;id&quot;:14985,&quot;title&quot;:&quot;Stop Using Frameworks Blindly: Build Your Own Python Web Server from Scratch&quot;,&quot;description&quot;:&quot;If you’ve ever built a web application using Flask or Django, you know the magic is instant. You run app.run(), and suddenly your code is accessible via a browser. But have you ever stopped to ask: What is actually happening under the hood? Most deve&quot;,&quot;baseDomain&quot;:&quot;dev.to&quot;,&quot;targetUrl&quot;:&quot;https://dev.to/programmingcentral/stop-using-frameworks-blindly-build-your-own-python-web-server-from-scratch-52b0&quot;,&quot;localUrl&quot;:&quot;https://www.devglan.com/local/p/x45d0pit-14985&quot;,&quot;imgUrl&quot;:&quot;https://media2.dev.to/dynamic/image/width\u003d1000,height\u003d500,fit\u003dcover,gravity\u003dauto,format\u003dauto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F05khmkwypt6527qtpd2j.jpg&quot;,&quot;prop&quot;:&quot;nofollow noopener noreferrer&quot;,&quot;topics&quot;:[{&quot;value&quot;:18,&quot;label&quot;:&quot;Django&quot;,&quot;custom&quot;:false,&quot;followed&quot;:false,&quot;imgUrl&quot;:&quot;https://destatic.blob.core.windows.net/images/django-logo.png&quot;,&quot;feedUrl&quot;:&quot;programming/django-article-feeds&quot;},{&quot;value&quot;:1,&quot;label&quot;:&quot;Python&quot;,&quot;custom&quot;:false,&quot;followed&quot;:false,&quot;imgUrl&quot;:&quot;https://destatic.blob.core.windows.net/images/python-logo.png&quot;,&quot;feedUrl&quot;:&quot;programming/python-article-feeds&quot;}],&quot;upVoteCount&quot;:0,&quot;downVoteCount&quot;:0,&quot;bookmarkCount&quot;:0,&quot;basicUserInfo&quot;:{&quot;recordId&quot;:65,&quot;name&quot;:&quot;Devglan&quot;,&quot;username&quot;:&quot;devglanweb994&quot;,&quot;profileLink&quot;:&quot;https://www.linkedin.com/company/devglan/&quot;,&quot;profileImgUrl&quot;:&quot;https://www.devglan.com/favicon.ico&quot;},&quot;createdOn&quot;:&quot;2 days ago&quot;,&quot;uiId&quot;:&quot;p14985&quot;},{&quot;id&quot;:14830,&quot;title&quot;:&quot;Curso de Django Intermedio: Formularios, Modelos, CRUD, GET/POST y Rutas&quot;,&quot;description&quot;:&quot;Bienvenido al Curso de Django Intermedio. En este curso aprenderás a manejar formularios, modelos, operaciones CRUD, y cómo trabajar con… Continue reading on Medium »&quot;,&quot;baseDomain&quot;:&quot;medium.com&quot;,&quot;targetUrl&quot;:&quot;https://medium.com/@yhonatanleonardomt/curso-de-django-intermedio-formularios-modelos-crud-get-post-y-rutas-3b6c06daf305?source\u003drss------django-5&quot;,&quot;localUrl&quot;:&quot;https://www.devglan.com/local/p/qsx7yykr-14830&quot;,&quot;imgUrl&quot;:&quot;https://destatic.blob.core.windows.net/logos/django-logo-ytube.webp&quot;,&quot;prop&quot;:&quot;nofollow noopener noreferrer&quot;,&quot;topics&quot;:[{&quot;value&quot;:18,&quot;label&quot;:&quot;Django&quot;,&quot;custom&quot;:false,&quot;followed&quot;:false,&quot;imgUrl&quot;:&quot;https://destatic.blob.core.windows.net/images/django-logo.png&quot;,&quot;feedUrl&quot;:&quot;programming/django-article-feeds&quot;}],&quot;upVoteCount&quot;:0,&quot;downVoteCount&quot;:0,&quot;bookmarkCount&quot;:0,&quot;basicUserInfo&quot;:{&quot;recordId&quot;:65,&quot;name&quot;:&quot;Devglan&quot;,&quot;username&quot;:&quot;devglanweb994&quot;,&quot;profileLink&quot;:&quot;https://www.linkedin.com/company/devglan/&quot;,&quot;profileImgUrl&quot;:&quot;https://www.devglan.com/favicon.ico&quot;},&quot;createdOn&quot;:&quot;4 days ago&quot;,&quot;uiId&quot;:&quot;p14830&quot;},{&quot;id&quot;:14829,&quot;title&quot;:&quot;One Small . vs getattr() — A Tiny Detail That Changed How I Write APIs&quot;,&quot;description&quot;:&quot;Sometimes, it’s not big architectural decisions that change how you code. It’s one small line that quietly teaches you how real systems… Continue reading on Python in Plain English »&quot;,&quot;baseDomain&quot;:&quot;plainenglish.io&quot;,&quot;targetUrl&quot;:&quot;https://python.plainenglish.io/one-small-vs-getattr-a-tiny-detail-that-changed-how-i-write-apis-6746eacd2b11?source\u003drss------django-5&quot;,&quot;localUrl&quot;:&quot;https://www.devglan.com/local/p/e0okf4i6-14829&quot;,&quot;imgUrl&quot;:&quot;https://destatic.blob.core.windows.net/logos/django-logo-ytube.webp&quot;,&quot;prop&quot;:&quot;nofollow noopener noreferrer&quot;,&quot;topics&quot;:[{&quot;value&quot;:18,&quot;label&quot;:&quot;Django&quot;,&quot;custom&quot;:false,&quot;followed&quot;:false,&quot;imgUrl&quot;:&quot;https://destatic.blob.core.windows.net/images/django-logo.png&quot;,&quot;feedUrl&quot;:&quot;programming/django-article-feeds&quot;},{&quot;value&quot;:1,&quot;label&quot;:&quot;Python&quot;,&quot;custom&quot;:false,&quot;followed&quot;:false,&quot;imgUrl&quot;:&quot;https://destatic.blob.core.windows.net/images/python-logo.png&quot;,&quot;feedUrl&quot;:&quot;programming/python-article-feeds&quot;}],&quot;upVoteCount&quot;:0,&quot;downVoteCount&quot;:0,&quot;bookmarkCount&quot;:0,&quot;basicUserInfo&quot;:{&quot;recordId&quot;:65,&quot;name&quot;:&quot;Devglan&quot;,&quot;username&quot;:&quot;devglanweb994&quot;,&quot;profileLink&quot;:&quot;https://www.linkedin.com/company/devglan/&quot;,&quot;profileImgUrl&quot;:&quot;https://www.devglan.com/favicon.ico&quot;},&quot;createdOn&quot;:&quot;4 days ago&quot;,&quot;uiId&quot;:&quot;p14829&quot;},{&quot;id&quot;:14828,&quot;title&quot;:&quot;From Side Project to Production: Building Scalable Django Apps&quot;,&quot;description&quot;:&quot;From Side Project to Production: Building Scalable Django Apps Continue reading on Medium »&quot;,&quot;baseDomain&quot;:&quot;medium.com&quot;,&quot;targetUrl&quot;:&quot;https://medium.com/@dythonai/from-side-project-to-production-building-scalable-django-apps-0c52432938f6?source\u003drss------django-5&quot;,&quot;localUrl&quot;:&quot;https://www.devglan.com/local/p/ceq5qu4h-14828&quot;,&quot;imgUrl&quot;:&quot;https://destatic.blob.core.windows.net/logos/django-logo-ytube.webp&quot;,&quot;prop&quot;:&quot;nofollow noopener noreferrer&quot;,&quot;topics&quot;:[{&quot;value&quot;:18,&quot;label&quot;:&quot;Django&quot;,&quot;custom&quot;:false,&quot;followed&quot;:false,&quot;imgUrl&quot;:&quot;https://destatic.blob.core.windows.net/images/django-logo.png&quot;,&quot;feedUrl&quot;:&quot;programming/django-article-feeds&quot;}],&quot;upVoteCount&quot;:0,&quot;downVoteCount&quot;:0,&quot;bookmarkCount&quot;:0,&quot;basicUserInfo&quot;:{&quot;recordId&quot;:65,&quot;name&quot;:&quot;Devglan&quot;,&quot;username&quot;:&quot;devglanweb994&quot;,&quot;profileLink&quot;:&quot;https://www.linkedin.com/company/devglan/&quot;,&quot;profileImgUrl&quot;:&quot;https://www.devglan.com/favicon.ico&quot;},&quot;createdOn&quot;:&quot;4 days ago&quot;,&quot;uiId&quot;:&quot;p14828&quot;},{&quot;id&quot;:14767,&quot;title&quot;:&quot;Djangonaut Space - Session 6 Accepting Applications&quot;,&quot;description&quot;:&quot;We are thrilled to announce that Djangonaut Space, a mentorship program for contributing to Django, is open for applicants for our next cohort! 🚀 Djangonaut Space is holding a sixth session! This session will start on March 2nd, 2026. We are current&quot;,&quot;baseDomain&quot;:&quot;djangoproject.com&quot;,&quot;targetUrl&quot;:&quot;https://www.djangoproject.com/weblog/2026/jan/21/djangonaut-space-session-6-accepting-applications/&quot;,&quot;localUrl&quot;:&quot;https://www.devglan.com/local/p/bvawkz0l-14767&quot;,&quot;imgUrl&quot;:&quot;https://static.djangoproject.com/img/logos/django-logo-negative.1d528e2cb5fb.png&quot;,&quot;prop&quot;:&quot;nofollow noopener noreferrer&quot;,&quot;topics&quot;:[{&quot;value&quot;:18,&quot;label&quot;:&quot;Django&quot;,&quot;custom&quot;:false,&quot;followed&quot;:false,&quot;imgUrl&quot;:&quot;https://destatic.blob.core.windows.net/images/django-logo.png&quot;,&quot;feedUrl&quot;:&quot;programming/django-article-feeds&quot;}],&quot;upVoteCount&quot;:0,&quot;downVoteCount&quot;:0,&quot;bookmarkCount&quot;:0,&quot;basicUserInfo&quot;:{&quot;recordId&quot;:65,&quot;name&quot;:&quot;Devglan&quot;,&quot;username&quot;:&quot;devglanweb994&quot;,&quot;profileLink&quot;:&quot;https://www.linkedin.com/company/devglan/&quot;,&quot;profileImgUrl&quot;:&quot;https://www.devglan.com/favicon.ico&quot;},&quot;createdOn&quot;:&quot;5 days ago&quot;,&quot;uiId&quot;:&quot;p14767&quot;},{&quot;id&quot;:14743,&quot;title&quot;:&quot;From Side Project to Production: Building Scalable Django Apps&quot;,&quot;description&quot;:&quot;Lessons from real-world Django projects Django is often praised for how quickly you can build things with it. And it’s true — spinning up a CRUD app, authentication, or an admin panel can take hours, not weeks. But many Django projects struggle when &quot;,&quot;baseDomain&quot;:&quot;dev.to&quot;,&quot;targetUrl&quot;:&quot;https://dev.to/dythonai_info_ca83b5413b8/from-side-project-to-production-building-scalable-django-apps-5am6&quot;,&quot;localUrl&quot;:&quot;https://www.devglan.com/local/p/oebq5gfy-14743&quot;,&quot;imgUrl&quot;:&quot;https://media2.dev.to/dynamic/image/width\u003d1000,height\u003d500,fit\u003dcover,gravity\u003dauto,format\u003dauto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fqt3x1cwc3ehhcjdzztm3.png&quot;,&quot;prop&quot;:&quot;nofollow noopener noreferrer&quot;,&quot;topics&quot;:[{&quot;value&quot;:18,&quot;label&quot;:&quot;Django&quot;,&quot;custom&quot;:false,&quot;followed&quot;:false,&quot;imgUrl&quot;:&quot;https://destatic.blob.core.windows.net/images/django-logo.png&quot;,&quot;feedUrl&quot;:&quot;programming/django-article-feeds&quot;},{&quot;value&quot;:1,&quot;label&quot;:&quot;Python&quot;,&quot;custom&quot;:false,&quot;followed&quot;:false,&quot;imgUrl&quot;:&quot;https://destatic.blob.core.windows.net/images/python-logo.png&quot;,&quot;feedUrl&quot;:&quot;programming/python-article-feeds&quot;}],&quot;upVoteCount&quot;:0,&quot;downVoteCount&quot;:0,&quot;bookmarkCount&quot;:0,&quot;basicUserInfo&quot;:{&quot;recordId&quot;:65,&quot;name&quot;:&quot;Devglan&quot;,&quot;username&quot;:&quot;devglanweb994&quot;,&quot;profileLink&quot;:&quot;https://www.linkedin.com/company/devglan/&quot;,&quot;profileImgUrl&quot;:&quot;https://www.devglan.com/favicon.ico&quot;},&quot;createdOn&quot;:&quot;5 days ago&quot;,&quot;uiId&quot;:&quot;p14743&quot;},{&quot;id&quot;:14666,&quot;title&quot;:&quot;CHAR vs VARCHAR in Django: What Django Really Uses, Why It Matters, and How to Choose Correctly.&quot;,&quot;description&quot;:&quot;When developers first move from SQL to Django ORM, one of the most common confusions is: Continue reading on Medium »&quot;,&quot;baseDomain&quot;:&quot;medium.com&quot;,&quot;targetUrl&quot;:&quot;https://shiladityamajumder.medium.com/char-vs-varchar-in-django-what-django-really-uses-why-it-matters-and-how-to-choose-correctly-e05187a408ef?source\u003drss------django-5&quot;,&quot;localUrl&quot;:&quot;https://www.devglan.com/local/p/cxsnqjcl-14666&quot;,&quot;imgUrl&quot;:&quot;https://destatic.blob.core.windows.net/logos/django-logo-ytube.webp&quot;,&quot;prop&quot;:&quot;nofollow noopener noreferrer&quot;,&quot;topics&quot;:[{&quot;value&quot;:18,&quot;label&quot;:&quot;Django&quot;,&quot;custom&quot;:false,&quot;followed&quot;:false,&quot;imgUrl&quot;:&quot;https://destatic.blob.core.windows.net/images/django-logo.png&quot;,&quot;feedUrl&quot;:&quot;programming/django-article-feeds&quot;}],&quot;upVoteCount&quot;:0,&quot;downVoteCount&quot;:0,&quot;bookmarkCount&quot;:0,&quot;basicUserInfo&quot;:{&quot;recordId&quot;:65,&quot;name&quot;:&quot;Devglan&quot;,&quot;username&quot;:&quot;devglanweb994&quot;,&quot;profileLink&quot;:&quot;https://www.linkedin.com/company/devglan/&quot;,&quot;profileImgUrl&quot;:&quot;https://www.devglan.com/favicon.ico&quot;},&quot;createdOn&quot;:&quot;6 days ago&quot;,&quot;uiId&quot;:&quot;p14666&quot;},{&quot;id&quot;:14665,&quot;title&quot;:&quot;Why Most Django Projects Fail in Production (And How to Fix Yours)&quot;,&quot;description&quot;:&quot;Django is one of the most powerful and developer-friendly web frameworks ever built. Yet, a surprising number of Django projects fail — or… Continue reading on Medium »&quot;,&quot;baseDomain&quot;:&quot;medium.com&quot;,&quot;targetUrl&quot;:&quot;https://medium.com/@dythonai/why-most-django-projects-fail-in-production-and-how-to-fix-yours-482668e4bcb6?source\u003drss------django-5&quot;,&quot;localUrl&quot;:&quot;https://www.devglan.com/local/p/mahesvjh-14665&quot;,&quot;imgUrl&quot;:&quot;https://destatic.blob.core.windows.net/logos/django-logo-ytube.webp&quot;,&quot;prop&quot;:&quot;nofollow noopener noreferrer&quot;,&quot;topics&quot;:[{&quot;value&quot;:18,&quot;label&quot;:&quot;Django&quot;,&quot;custom&quot;:false,&quot;followed&quot;:false,&quot;imgUrl&quot;:&quot;https://destatic.blob.core.windows.net/images/django-logo.png&quot;,&quot;feedUrl&quot;:&quot;programming/django-article-feeds&quot;}],&quot;upVoteCount&quot;:0,&quot;downVoteCount&quot;:0,&quot;bookmarkCount&quot;:0,&quot;basicUserInfo&quot;:{&quot;recordId&quot;:65,&quot;name&quot;:&quot;Devglan&quot;,&quot;username&quot;:&quot;devglanweb994&quot;,&quot;profileLink&quot;:&quot;https://www.linkedin.com/company/devglan/&quot;,&quot;profileImgUrl&quot;:&quot;https://www.devglan.com/favicon.ico&quot;},&quot;createdOn&quot;:&quot;6 days ago&quot;,&quot;uiId&quot;:&quot;p14665&quot;},{&quot;id&quot;:14664,&quot;title&quot;:&quot;Master Django ContentType: Generic Relations Explained With Real-World Use Cases&quot;,&quot;description&quot;:&quot;If you’ve ever wondered how Django handles multiple models in a flexible way, or how apps like comments, likes, notifications, or activity… Continue reading on Medium »&quot;,&quot;baseDomain&quot;:&quot;medium.com&quot;,&quot;targetUrl&quot;:&quot;https://medium.com/@sagorrobidush/master-django-contenttype-generic-relations-explained-with-real-world-use-cases-40361c38c50a?source\u003drss------django-5&quot;,&quot;localUrl&quot;:&quot;https://www.devglan.com/local/p/yxkrmrqv-14664&quot;,&quot;imgUrl&quot;:&quot;https://destatic.blob.core.windows.net/logos/django-logo-ytube.webp&quot;,&quot;prop&quot;:&quot;nofollow noopener noreferrer&quot;,&quot;topics&quot;:[{&quot;value&quot;:18,&quot;label&quot;:&quot;Django&quot;,&quot;custom&quot;:false,&quot;followed&quot;:false,&quot;imgUrl&quot;:&quot;https://destatic.blob.core.windows.net/images/django-logo.png&quot;,&quot;feedUrl&quot;:&quot;programming/django-article-feeds&quot;}],&quot;upVoteCount&quot;:0,&quot;downVoteCount&quot;:0,&quot;bookmarkCount&quot;:0,&quot;basicUserInfo&quot;:{&quot;recordId&quot;:65,&quot;name&quot;:&quot;Devglan&quot;,&quot;username&quot;:&quot;devglanweb994&quot;,&quot;profileLink&quot;:&quot;https://www.linkedin.com/company/devglan/&quot;,&quot;profileImgUrl&quot;:&quot;https://www.devglan.com/favicon.ico&quot;},&quot;createdOn&quot;:&quot;6 days ago&quot;,&quot;uiId&quot;:&quot;p14664&quot;}],&quot;currentPage&quot;:0,&quot;lastPage&quot;:18,&quot;totalElements&quot;:268},&quot;tech&quot;:{&quot;topic&quot;:&quot;django&quot;,&quot;topicId&quot;:18,&quot;techImageLink&quot;:&quot;https://destatic.blob.core.windows.net/images/django-logo.png&quot;,&quot;displayName&quot;:&quot;Django&quot;,&quot;techDescription&quot;:&quot;Django is a Python-based free and open-source web framework, which follows the model-template-view architectural pattern. Django\u0027s primary goal is to ease the creation of complex, database-driven websites.&quot;,&quot;followerCount&quot;:104,&quot;followed&quot;:false,&quot;techHomePageUrl&quot;:&quot;programming/django-tutorials&quot;},&quot;menus&quot;:[{&quot;recordId&quot;:1,&quot;name&quot;:&quot;programming&quot;,&quot;displayName&quot;:&quot;Programming&quot;,&quot;order&quot;:1,&quot;selected&quot;:true,&quot;targetUrl&quot;:&quot;/programming/programming-tutorials&quot;,&quot;subMenus&quot;:[{&quot;recordId&quot;:9,&quot;name&quot;:&quot;tutorials&quot;,&quot;displayName&quot;:&quot;Courses&quot;,&quot;targetUrl&quot;:&quot;programming/django-tutorials&quot;,&quot;order&quot;:1,&quot;selected&quot;:false,&quot;metaTitle&quot;:&quot;Learn %sm - Best %sm Tutorials and Courses | Devglan&quot;,&quot;metaDescription&quot;:&quot;Best %sm %pm courses and tutorials from around the web. You can find all format of %sm tutorials - free or paid, video or handwritten and beginner or advanced level.&quot;,&quot;headerText&quot;:&quot;Best %sm Courses and Tutorials&quot;,&quot;subHeaderText&quot;:&quot;Learn %sm online from the best tutorials from around the web.&quot;},{&quot;recordId&quot;:45,&quot;name&quot;:&quot;feeds&quot;,&quot;displayName&quot;:&quot;Articles&quot;,&quot;targetUrl&quot;:&quot;programming/django-article-feeds&quot;,&quot;order&quot;:2,&quot;selected&quot;:true,&quot;metaTitle&quot;:&quot;Latest Programming \u0026 Technology Articles on %sm from around the web | Devglan&quot;,&quot;metaDescription&quot;:&quot;Discover latest trending and popular articles on %sm from around the web at one place. All articles are curated from reliable developer sources.&quot;,&quot;headerText&quot;:&quot;Latest Programming Articles on %sm from around the web.&quot;,&quot;subHeaderText&quot;:&quot;Discover all the trending articles on %sm from around the web at one place.&quot;},{&quot;recordId&quot;:51,&quot;name&quot;:&quot;books&quot;,&quot;displayName&quot;:&quot;Books&quot;,&quot;targetUrl&quot;:&quot;programming/django-books&quot;,&quot;order&quot;:12,&quot;selected&quot;:false,&quot;metaTitle&quot;:&quot;Best %sm Books&quot;,&quot;metaDescription&quot;:&quot;The best %sm %pm books that is worth reading around the web All the books are suggested by the %pm community.&quot;,&quot;headerText&quot;:&quot;Best %sm Books&quot;,&quot;subHeaderText&quot;:&quot;The best %sm %pm books that is worth reading around the web All the books are suggested by the %pm community.&quot;}],&quot;metaTitle&quot;:&quot;Best Programming Courses and Tutorials | DevGlan&quot;,&quot;metaDescription&quot;:&quot;Choose your programming language interest and we will suggest you the best courses, tutorials and blog articles from  around the web that is recommended by the Programming community.&quot;,&quot;headerText&quot;:&quot;Programming Technologies&quot;,&quot;subHeaderText&quot;:&quot;Choose any  language to get started now&quot;,&quot;iconUrl&quot;:&quot;https://destatic.blob.core.windows.net/images/programming.jpg&quot;},{&quot;recordId&quot;:2,&quot;name&quot;:&quot;testing&quot;,&quot;displayName&quot;:&quot;Testing&quot;,&quot;order&quot;:2,&quot;selected&quot;:false,&quot;targetUrl&quot;:&quot;/testing/testing-tutorials&quot;,&quot;metaTitle&quot;:&quot;Best Testing Courses and Tutorials | DevGlan&quot;,&quot;metaDescription&quot;:&quot;Choose any testing framework of your interest and we will suggest you the best testing courses, tutorials and and blog articles from around the web that is recommended by the testing community.&quot;,&quot;headerText&quot;:&quot;Testing Technologies&quot;,&quot;subHeaderText&quot;:&quot;Choose any testing framework to get started now&quot;,&quot;iconUrl&quot;:&quot;https://destatic.blob.core.windows.net/images/testing.jpg&quot;},{&quot;recordId&quot;:3,&quot;name&quot;:&quot;ai&quot;,&quot;displayName&quot;:&quot;AI&quot;,&quot;order&quot;:3,&quot;selected&quot;:false,&quot;targetUrl&quot;:&quot;/ai/artificial-intelligence-tutorials&quot;,&quot;metaTitle&quot;:&quot;Best ai Courses and Tutorials | DevGlan&quot;,&quot;metaDescription&quot;:&quot;Looking for artificial intelligence courses and tutorials. Choose any AI technology from the list and we provide you the best courses, tutorials and blog articles on artificial intelligence.&quot;,&quot;headerText&quot;:&quot;Artificial Intelligence Technologies&quot;,&quot;subHeaderText&quot;:&quot;Choose any  language to get started now&quot;,&quot;iconUrl&quot;:&quot;https://destatic.blob.core.windows.net/images/ai.jpg&quot;},{&quot;recordId&quot;:4,&quot;name&quot;:&quot;devops&quot;,&quot;displayName&quot;:&quot;Devops&quot;,&quot;order&quot;:4,&quot;selected&quot;:false,&quot;targetUrl&quot;:&quot;/devops/devops-tutorials&quot;,&quot;metaTitle&quot;:&quot;Best Devops Courses and Tutorials | DevGlan&quot;,&quot;metaDescription&quot;:&quot;Looking for Devops courses and tutorials. Choose any Devops topic from the list and we will suggest you the best courses, tutorials and blog articles on Devops from around the web.&quot;,&quot;headerText&quot;:&quot;Devops Top Technologies&quot;,&quot;subHeaderText&quot;:&quot;Choose any technology to get started now&quot;,&quot;iconUrl&quot;:&quot;https://destatic.blob.core.windows.net/images/devops.jpg&quot;},{&quot;recordId&quot;:5,&quot;name&quot;:&quot;datascience&quot;,&quot;displayName&quot;:&quot;DataScience&quot;,&quot;order&quot;:5,&quot;selected&quot;:false,&quot;targetUrl&quot;:&quot;/datascience/datascience-tutorials&quot;,&quot;metaTitle&quot;:&quot;Best Datascience Courses and Tutorials | DevGlan&quot;,&quot;metaDescription&quot;:&quot;Looking for the best datascience courses and tutorials. Find all the best courses and tutorials around the web at one place&quot;,&quot;headerText&quot;:&quot;Datascience Technologies&quot;,&quot;subHeaderText&quot;:&quot;Choose any language to get started now&quot;,&quot;iconUrl&quot;:&quot;https://destatic.blob.core.windows.net/images/data-science.jpg&quot;},{&quot;recordId&quot;:6,&quot;name&quot;:&quot;design&quot;,&quot;displayName&quot;:&quot;Design&quot;,&quot;order&quot;:6,&quot;selected&quot;:false,&quot;targetUrl&quot;:&quot;/design/design-tutorials&quot;,&quot;metaTitle&quot;:&quot;Best Design Courses and Tutorials | DevGlan&quot;,&quot;metaDescription&quot;:&quot;Choose the design technology that you are looking for and we will provide you the best courses, tutorials and blog articles on web design from around the web.&quot;,&quot;headerText&quot;:&quot;Design Technologies&quot;,&quot;subHeaderText&quot;:&quot;Choose any language to get started now&quot;,&quot;iconUrl&quot;:&quot;https://destatic.blob.core.windows.net/images/design.jpg&quot;},{&quot;recordId&quot;:8,&quot;name&quot;:&quot;devfeeds&quot;,&quot;displayName&quot;:&quot;DevFeed&quot;,&quot;order&quot;:7,&quot;selected&quot;:false,&quot;targetUrl&quot;:&quot;/feeds/programming-feeds&quot;,&quot;metaTitle&quot;:&quot;Trending Programming and Tech Articles for Developers&quot;,&quot;metaDescription&quot;:&quot;Discover fresh programming and technology articles across Java, Python, DevOps, testing, and design. Curated from reliable developer sources.&quot;,&quot;headerText&quot;:&quot;Trending Programming and Tech Articles for Developers&quot;,&quot;subHeaderText&quot;:&quot;Discover fresh programming and technology articles across Java, Python, DevOps, testing, and design. Curated from reliable developer sources.&quot;,&quot;iconUrl&quot;:&quot;https://destatic.blob.core.windows.net/images/tech-feed.jpg&quot;},{&quot;recordId&quot;:58,&quot;name&quot;:&quot;blog&quot;,&quot;displayName&quot;:&quot;Blogs&quot;,&quot;order&quot;:7,&quot;selected&quot;:false,&quot;targetUrl&quot;:&quot;/blogs&quot;,&quot;iconUrl&quot;:&quot;https://destatic.blob.core.windows.net/images/tech-blog.jpg&quot;},{&quot;recordId&quot;:0,&quot;name&quot;:&quot;Login&quot;,&quot;displayName&quot;:&quot;Login&quot;,&quot;order&quot;:100,&quot;selected&quot;:false,&quot;targetUrl&quot;:&quot;/auth/login&quot;}],&quot;subMenus&quot;:[{&quot;recordId&quot;:9,&quot;name&quot;:&quot;tutorials&quot;,&quot;displayName&quot;:&quot;Courses&quot;,&quot;targetUrl&quot;:&quot;programming/django-tutorials&quot;,&quot;order&quot;:1,&quot;selected&quot;:false,&quot;metaTitle&quot;:&quot;Learn %sm - Best %sm Tutorials and Courses | Devglan&quot;,&quot;metaDescription&quot;:&quot;Best %sm %pm courses and tutorials from around the web. You can find all format of %sm tutorials - free or paid, video or handwritten and beginner or advanced level.&quot;,&quot;headerText&quot;:&quot;Best %sm Courses and Tutorials&quot;,&quot;subHeaderText&quot;:&quot;Learn %sm online from the best tutorials from around the web.&quot;},{&quot;recordId&quot;:45,&quot;name&quot;:&quot;feeds&quot;,&quot;displayName&quot;:&quot;Articles&quot;,&quot;targetUrl&quot;:&quot;programming/django-article-feeds&quot;,&quot;order&quot;:2,&quot;selected&quot;:true,&quot;metaTitle&quot;:&quot;Latest Programming \u0026 Technology Articles on %sm from around the web | Devglan&quot;,&quot;metaDescription&quot;:&quot;Discover latest trending and popular articles on %sm from around the web at one place. All articles are curated from reliable developer sources.&quot;,&quot;headerText&quot;:&quot;Latest Programming Articles on %sm from around the web.&quot;,&quot;subHeaderText&quot;:&quot;Discover all the trending articles on %sm from around the web at one place.&quot;},{&quot;recordId&quot;:51,&quot;name&quot;:&quot;books&quot;,&quot;displayName&quot;:&quot;Books&quot;,&quot;targetUrl&quot;:&quot;programming/django-books&quot;,&quot;order&quot;:12,&quot;selected&quot;:false,&quot;metaTitle&quot;:&quot;Best %sm Books&quot;,&quot;metaDescription&quot;:&quot;The best %sm %pm books that is worth reading around the web All the books are suggested by the %pm community.&quot;,&quot;headerText&quot;:&quot;Best %sm Books&quot;,&quot;subHeaderText&quot;:&quot;The best %sm %pm books that is worth reading around the web All the books are suggested by the %pm community.&quot;}],&quot;metaTitle&quot;:&quot;Latest Programming \u0026 Technology Articles on Django from around the web | Devglan&quot;,&quot;metaDescription&quot;:&quot;Discover latest trending and popular articles on Django from around the web at one place. All articles are curated from reliable developer sources.&quot;,&quot;headerText&quot;:&quot;Latest Programming Articles on Django from around the web.&quot;,&quot;subHeaderText&quot;:&quot;Discover all the trending articles on Django from around the web at one place.&quot;,&quot;breadcrumbs&quot;:[{&quot;name&quot;:&quot;Home &quot;,&quot;url&quot;:&quot;https://www.devglan.com/&quot;},{&quot;name&quot;:&quot;Programming&quot;,&quot;url&quot;:&quot;/programming/programming-tutorials&quot;},{&quot;name&quot;:&quot;Django Articles&quot;,&quot;url&quot;:&quot;&quot;}],&quot;relatedPosts&quot;:[{&quot;name&quot;:&quot;PyTorch Articles&quot;,&quot;url&quot;:&quot;ai/pytorch-article-feeds&quot;,&quot;thumbnailUrl&quot;:&quot;https://destatic.blob.core.windows.net/images/pytorch.jpeg&quot;},{&quot;name&quot;:&quot;Python Articles&quot;,&quot;url&quot;:&quot;programming/python-article-feeds&quot;,&quot;thumbnailUrl&quot;:&quot;https://destatic.blob.core.windows.net/images/python-logo.png&quot;},{&quot;name&quot;:&quot;Machine Learning(ML) Articles&quot;,&quot;url&quot;:&quot;ai/machine-learning-article-feeds&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.imgur.com/LGtDY5S.png&quot;},{&quot;name&quot;:&quot;MicroSevices Articles&quot;,&quot;url&quot;:&quot;programming/microservices-article-feeds&quot;,&quot;thumbnailUrl&quot;:&quot;https://destatic.blob.core.windows.net/logos/microservices-logo.webp&quot;},{&quot;name&quot;:&quot;Spring Framework Articles&quot;,&quot;url&quot;:&quot;programming/springframework-article-feeds&quot;,&quot;thumbnailUrl&quot;:&quot;https://destatic.blob.core.windows.net/logos/spring-logo.webp&quot;},{&quot;name&quot;:&quot;Flask Articles&quot;,&quot;url&quot;:&quot;programming/flask-article-feeds&quot;,&quot;thumbnailUrl&quot;:&quot;https://destatic.blob.core.windows.net/logos/flask-logo.webp&quot;},{&quot;name&quot;:&quot;Tensor Flow Articles&quot;,&quot;url&quot;:&quot;ai/tensor-flow-article-feeds&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.imgur.com/rzNd0kz.png&quot;},{&quot;name&quot;:&quot;OpenCV Articles&quot;,&quot;url&quot;:&quot;ai/opencv-article-feeds&quot;,&quot;thumbnailUrl&quot;:&quot;https://i.imgur.com/PYt4tRr.png&quot;}],&quot;type&quot;:&quot;Articles&quot;})">
+    <div class="container p-2">
+        <div class="row">
+            <script async
+                    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2256439533750580"
+                    crossorigin="anonymous"></script>
+            <!-- top-horizontal -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-2256439533750580"
+                 data-ad-slot="1646189709"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+        <div class="row">
+            <div class="col-lg-8" on-scroll-to-bottom="loadMore()">
+                <div ng-repeat="link in data.links.content track by $index">
+                    <div class="rounded-md mt-3 bg-white shadow outline-2 outline-blue-500 transition hover:outline-dashed dark:bg-gray-800 dark:text-gray-200"
+                         id="{{link.uiId}}">
+                        <div class="flex space-x-3 p-3">
+                            <div class="flex-shrink-0">
+                                <a ng-href="{{link.basicUserInfo.profileLink}}" target="_blank">
+                                    <img ng-src="{{link.basicUserInfo.profileImgUrl}}"
+                                         class="block rounded-full bg-gray-200 object-cover h-12 w-12"
+                                         alt="user profile image"
+                                         width="48" height="48">
+                                </a>
+                            </div>
+                            <div class="min-w-0 flex-1 space-y-1 ml-1">
+                                <p class="font-medium mb-0 name-owner">
+                                    <a class="hover:underline" ng-href="{{link.basicUserInfo.profileLink}}"
+                                       target="_blank">{{link.basicUserInfo.name}}</a>
+                                </p>
+                                <p class="text-sm text-gray-500 mb-0 count-post ">
+                                    {{' ' + link.createdOn}}
+                                </p>
+                            </div>
+                            <div class="flex flex-shrink-0 space-x-6 self-center">
+                                <div class="relative inline-block text-left" data-headlessui-state="">
+                                    <div class="d-flex align-items-center">
+                                <span ng-if="topic.label" ng-repeat="topic in link.topics track by $index"
+                                      class="tag-post" id="{{'t' + topic.value}}">{{topic.label}}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative overflow-hidden transition px-4">
+                            <div class="prose max-w-none break-words dark:prose-invert visited:text-purple-600">
+                                <p class="lead">{{link.title}}</p>
+                            </div>
+                        </div>
+                        <div class="relative">
+                            <iframe ng-if="link.videoUrl" width="100%" height="400" ng-src="{{trustSrc(link.videoUrl)}}"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            <a ng-if="!link.videoUrl" ng-href="{{link.localUrl}}" target="_blank"
+                               rel="noopener noreferrer nofollow">
+                                <img ng-src="{{link.imgUrl}}" alt="{{link.title}}"
+                                     class="aspect-video w-full object-cover feed-img">
+                            </a>
+                        </div>
+                        <div class="cursor-pointer bg-gray-100 px-4 py-3 dark:bg-gray-700">
+                            <a ng-href="{{link.localUrl}}" target="_blank">
+                                <h2 class="text-base uppercase f-weigt-400">{{link.baseDomain}}</h2>
+                                <h2 class="truncate text-base font-bold">{{link.title}}</h2>
+                                <p class="truncate text-sm">
+                                    {{ link.description }}
+                                </p>
+                            </a>
+                        </div>
+                        <div class="flex items-center justify-between space-x-2 px-4 py-3 text-sm">
+                            <div class="flex space-x-4">
+                                <span>{{link.upVoteCount > 1000 ? link.upVoteCount/1000 + 'K' : link.upVoteCount }} Likes</span>
+                            </div>
+                            <div class="flex space-x-4">
+                            </div>
+                        </div>
+                        <div class="flex justify-between border-t border-gray-100 p-4 py-2 text-gray-500 dark:border-gray-700">
+                            <div class="flex items-center space-x-2">
+                                <button title="Like" aria-label="Like" ng-click="upvote(link)"
+                                        class="like inline-flex items-center rounded-full p-2 transition hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-indigo-500 dark:hover:bg-gray-900">
+                                    <i class="fa fa-thumbs-up"></i>
+                                </button>
+                                <a ng-href="{{link.localUrl}}" target="_blank" aria-label="Write a comment">
+                                    <button title="Write a comment" aria-label="Write a comment"
+                                            class="comment inline-flex items-center rounded-full p-2 transition hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-indigo-500 dark:hover:bg-gray-900">
+                                        <i class="fa fa-comment"></i>
+                                    </button>
+                                </a>
+                                <button title="Bookmark" aria-label="Bookmark this post" ng-click="bookmark(link)"
+                                        class="comment inline-flex items-center rounded-full p-2 transition hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-indigo-500 dark:hover:bg-gray-900">
+                                    <i class="fa fa-bookmark"></i>
+                                </button>
+                            </div>
+                            <div class="flex text-sm">
+                                <div class="flex items-center space-x-2">
+                                    <div class="share-wrapper relative">
+                                        <!-- Share button -->
+                                        <button aria-label="Share" title="Share"
+                                                class="share flex items-center rounded-full p-2 transition
+                           hover:bg-gray-200 focus:outline-none
+                           focus:ring-2 focus:ring-indigo-500 focus:ring-offset-indigo-500
+                           dark:hover:bg-gray-900">
+                                            <i class="fa fa-share-alt"></i>
+                                        </button>
+                                        <!-- Share popup -->
+                                        <div class="shared-icon" hidden>
+                                            <div class="ul-li share-icon">
+                                                <ul class="p-2 flex gap-3">
+                                                    <li>
+                                                        <a href="https://www.facebook.com/sharer.php?u={{link.localUrl}}&title={{link.title}}"
+                                                           onclick="window.open(this.href,'_blank','width=600,height=300'); return false;"
+                                                           aria-label="Share on Facebook">
+                                                            <i class="fab fa-facebook-f"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://twitter.com/intent/tweet?url={{link.localUrl}}&text={{link.title}}"
+                                                           onclick="window.open(this.href,'_blank','width=600,height=300'); return false;"
+                                                           aria-label="Share on Twitter">
+                                                            <i class="fab fa-twitter"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.linkedin.com/sharing/share-offsite/?url={{link.localUrl}}"
+                                                           onclick="window.open(this.href,'_blank','width=600,height=300'); return false;"
+                                                           aria-label="Share on LinkedIn">
+                                                            <i class="fab fa-linkedin-in"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://reddit.com/submit?url={{link.localUrl}}&title={{link.title}}"
+                                                           onclick="window.open(this.href,'_blank','width=600,height=300'); return false;"
+                                                           aria-label="Share on Reddit">
+                                                            <i class="fab fa-reddit"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.tumblr.com/widgets/share/tool?canonicalUrl={{link.localUrl}}"
+                                                           onclick="window.open(this.href,'_blank','width=600,height=300'); return false;"
+                                                           aria-label="Share on Tumblr">
+                                                            <i class="fab fa-tumblr"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="adsense_ad_horizontal" ng-show="($index + 1) % 5 === 0">
+                        <ins class="adsbygoogle"
+                             style="display:block"
+                             data-ad-client="ca-pub-2256439533750580"
+                             data-ad-slot="4106313937"
+                             data-ad-format="auto"
+                             data-full-width-responsive="true">
+                        </ins>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="spinner-grow text-primary" role="status" ng-show="loadMoreElements">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                    <div class="spinner-grow text-secondary" role="status" ng-show="loadMoreElements">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                    <div class="spinner-grow text-success" role="status" ng-show="loadMoreElements">
+                        <span class="sr-only">Loading...</span>
+                    </div>
+                    <div class="text-secondary m-5" role="status" ng-show="!loadMoreElements">
+                        <h5>That's all folk. &nbsp;&nbsp; <a href="https://www.devglan.com/me/add-story"
+                                                             class="text-primary" target="_blank">Click to feature
+                            your
+                            story!</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="yl-blog-sidebar mt-3">
+
+                    <div class="yl-blog-widget-wrap p-4">
+                        <p class="follow-title">
+                            Follow <strong>Django</strong>
+                            to include its articles in your personal
+                            <a href="https://www.devglan.com/feeds/programming-feeds"
+                               target="_blank"
+                               rel="noopener" title="Go to Dev Tech Feed" class="tag-link">
+                                dev feed
+                            </a>.
+                        </p>
+                        <div class="d-flex like-follow">
+                            <p>{{data.tech.followerCount}}</br><span>followers</span></p>
+                            <button ng-if="data.tech.followed" class="follow-btn"
+                                    ng-click="unfollowTopic()"><i class="fa fa-check"></i></button>
+                            <button ng-if="!data.tech.followed" class="follow-btn"
+                                    ng-click="followTopic()">Follow +
+                            </button>
+                        </div>
+                    </div>
+                    <div class="yl-blog-widget-wrap">
+                        <div class="yl-recent-blog-widget clearfix">
+                            <h3 class="widget-title">Related Articles</h3>
+                            <div class="yl-recent-blog-img-text">
+                                <div class="yl-recent-blog-img">
+                                    <img src="https://destatic.blob.core.windows.net/images/pytorch.jpeg" alt="PyTorch Articles logo">
+                                </div>
+                                <div class="yl-recent-blog-text my-auto">
+                                    <h3><a href="ai/pytorch-article-feeds">PyTorch Articles</a></h3>
+                                </div>
+                            </div>
+                            <div class="yl-recent-blog-img-text">
+                                <div class="yl-recent-blog-img">
+                                    <img src="https://destatic.blob.core.windows.net/images/python-logo.png" alt="Python Articles logo">
+                                </div>
+                                <div class="yl-recent-blog-text my-auto">
+                                    <h3><a href="programming/python-article-feeds">Python Articles</a></h3>
+                                </div>
+                            </div>
+                            <div class="yl-recent-blog-img-text">
+                                <div class="yl-recent-blog-img">
+                                    <img src="https://i.imgur.com/LGtDY5S.png" alt="Machine Learning(ML) Articles logo">
+                                </div>
+                                <div class="yl-recent-blog-text my-auto">
+                                    <h3><a href="ai/machine-learning-article-feeds">Machine Learning(ML) Articles</a></h3>
+                                </div>
+                            </div>
+                            <div class="yl-recent-blog-img-text">
+                                <div class="yl-recent-blog-img">
+                                    <img src="https://destatic.blob.core.windows.net/logos/microservices-logo.webp" alt="MicroSevices Articles logo">
+                                </div>
+                                <div class="yl-recent-blog-text my-auto">
+                                    <h3><a href="programming/microservices-article-feeds">MicroSevices Articles</a></h3>
+                                </div>
+                            </div>
+                            <div class="yl-recent-blog-img-text">
+                                <div class="yl-recent-blog-img">
+                                    <img src="https://destatic.blob.core.windows.net/logos/spring-logo.webp" alt="Spring Framework Articles logo">
+                                </div>
+                                <div class="yl-recent-blog-text my-auto">
+                                    <h3><a href="programming/springframework-article-feeds">Spring Framework Articles</a></h3>
+                                </div>
+                            </div>
+                            <div class="yl-recent-blog-img-text">
+                                <div class="yl-recent-blog-img">
+                                    <img src="https://destatic.blob.core.windows.net/logos/flask-logo.webp" alt="Flask Articles logo">
+                                </div>
+                                <div class="yl-recent-blog-text my-auto">
+                                    <h3><a href="programming/flask-article-feeds">Flask Articles</a></h3>
+                                </div>
+                            </div>
+                            <div class="yl-recent-blog-img-text">
+                                <div class="yl-recent-blog-img">
+                                    <img src="https://i.imgur.com/rzNd0kz.png" alt="Tensor Flow Articles logo">
+                                </div>
+                                <div class="yl-recent-blog-text my-auto">
+                                    <h3><a href="ai/tensor-flow-article-feeds">Tensor Flow Articles</a></h3>
+                                </div>
+                            </div>
+                            <div class="yl-recent-blog-img-text">
+                                <div class="yl-recent-blog-img">
+                                    <img src="https://i.imgur.com/PYt4tRr.png" alt="OpenCV Articles logo">
+                                </div>
+                                <div class="yl-recent-blog-text my-auto">
+                                    <h3><a href="ai/opencv-article-feeds">OpenCV Articles</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="google_ad">
+                        <script async
+                                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2256439533750580"
+                                crossorigin="anonymous"></script>
+                        <!-- ad-unit-right -->
+                        <ins class="adsbygoogle"
+                             style="display:block"
+                             data-ad-client="ca-pub-2256439533750580"
+                             data-ad-slot="5806293478"
+                             data-ad-format="auto"
+                             data-full-width-responsive="true"></ins>
+                        <script>
+                            (adsbygoogle = window.adsbygoogle || []).push({});
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer id="yl-footer" class="yl-footer-section" data-background="destatic/v3/assets/img/f-bg.jpg">
+    <div class="container">
+        <div class="yl-footer-content-wrap">
+            <div class="row">
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="yl-footer-widget">
+                        <div class="yl-footer-info-widget ul-li">
+                            <h3 class="widget-title">Contact Us</h3>
+                            <ul class="address">
+                                <li>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <a href="/contact-us">30 Commercial Road
+                                        Bangalore, India</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-envelope"></i><a href="mailto:#">hello@devglan.com</a>
+                                </li>
+                            </ul>
+                            <div class="yl-footer-social ul-li">
+                                <ul>
+                                    <li><a href="https://www.facebook.com/devglanjava/" aria-label="Devglan Facebook"><i
+                                            class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://twitter.com/devglan" aria-label="Devglan Twitter"><i
+                                            class="fab fa-twitter"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/company/devglan"
+                                           aria-label="Devglan LinkedIn"><i class="fab fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="yl-footer-widget">
+                        <div class="yl-footer-newslatter-widget pera-content">
+                            <h3 class="widget-title">Quick Links</h3>
+                            <ul class="footer-links">
+                                <li><a href="https://www.devglan.com/buy-me-a-coffee" target="_blank">Buy a coffee </a>
+                                </li>
+                                <li><a href="https://www.devglan.com/privacy" target="_blank">Privacy Policy</a></li>
+                                <li><a href="https://www.devglan.com/about-us" target="_blank">About Us</a></li>
+                                <li><a href="https://www.devglan.com/contact-us" target="_blank">Contact Us</a></li>
+                            </ul>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="yl-footer-widget">
+                        <div class="yl-footer-newslatter-widget pera-content">
+                            <h3 class="widget-title newsection" style="visibility: hidden;">Quick Links</h3>
+                            <ul class="footer-links second-f-links">
+
+                                <li><a href="https://www.devglan.com/datascience/datascience-tutorials" target="_blank">
+                                    Data Science</a></li>
+                                <li><a href="https://www.devglan.com/design/design-tutorials" target="_blank">
+                                    Design</a></li>
+                                <li><a href="https://www.devglan.com/blogs" target="_blank"> Blogs</a></li>
+                                <li><a href="https://www.devglan.com/submission-criteria" target="_blank"> Write For
+                                    us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="yl-footer-widget">
+                        <div class="yl-footer-newslatter-widget pera-content">
+                            <h3 class="widget-title">Newsletter</h3>
+                            <p>Subscribe to our newsletter to get our
+                                latest update & news
+                            </p>
+                            <form action="#">
+                                <label for="email">
+                                    <input type="email" placeholder="Your mail address" id="email">
+                                </label>>
+                                <button type="submit" aria-label="submit"><i class="far fa-paper-plane"></i></button>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="yl-footer-copyright text-center">
+            <span>© 2026 Devglan | All rights reserved.</span>
+        </div>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular.min.js"></script>
+<script>var App = angular.module("devStack", []);
+App.config(function ($httpProvider) {
+    $httpProvider.interceptors.push(function ($q) {
+        return {
+            request: function (config) {
+                if (window.localStorage.getItem("devglan-data")) {
+                    try {
+                        config.headers.Authorization = 'Bearer ' + JSON.parse(window.localStorage.getItem("devglan-data")).token;
+                    } catch (err) {
+                        window.location.href = 'https://www.devglan.com/auth/login';
+                        return;
+                    }
+                }
+                return config;
+            },
+            response: function (response) {
+                if (response.data.status === 401) {
+                    window.location.href = 'https://www.devglan.com/auth/login';
+                    return;
+                }
+                return response;
+            },
+            responseError: function (errResponse) {
+                console.log(errResponse);
+                alert(errResponse.statusText);
+                return;
+            }
+        };
+    });
+});
+    !function(t){"use strict";App.controller("linksListController",["$scope","$rootScope","$http","$q","$sce","$timeout",function(e,o,n,a,s,r){function i(){if("IntersectionObserver"in window){var t=new IntersectionObserver((function(t,e){t.forEach((function(t){if(t.isIntersecting){if(0===t.target.offsetWidth)return void setTimeout((function(){i()}),100);try{t.target.setAttribute("data-adsbygoogle-status","loading"),(adsbygoogle=window.adsbygoogle||[]).push({})}catch(t){}e.unobserve(t.target)}}))}),{rootMargin:"200px"});document.querySelectorAll("ins.adsbygoogle:not([data-adsbygoogle-status])").forEach((function(e){t.observe(e)}))}else e.safeRenderAdsense()}function l(){switch(e.data.type){case"Websites":return"blogWebsite/";case"Articles":return"blogPostLink/";case"Forums":return"forumLink/";case"Repos":return"openSourceCodeLink/";case"Books":return"bookLink/";case"CryptoTools":return"cryptoLink/";default:return""}}e.loadMoreElements=!0,e.startLoadingMoreElements=!0,e.initialise=function(t){e.data=t,e.data.links&&e.data.links.content&&0!==e.data.links.content.length||(e.loadMoreElements=!1),r(i,0,!1)},e.safeRenderAdsense=function(){window.adsbygoogle&&r((function(){window.requestAnimationFrame((function(){try{var e=document.querySelectorAll("ins.adsbygoogle:not([data-adsbygoogle-status])");t.forEach(e,(function(){(adsbygoogle=window.adsbygoogle||[]).push({})}))}catch(t){}}))}),0,!1)},e.trustSrc=function(t){return s.trustAsResourceUrl(t)},e.upvote=function(t){if(!t.upvoted){var e=l();n.get(e+t.id+"/upvote").then((function(e){var o=e.data;o&&200===o.status?(t.upvoted=!0,t.upVoteCount=o.result.value):alert(o.message)}))}},e.bookmark=function(t){if(!t.bookmarked){var e=l();n.get(e+t.id+"/bookmark").then((function(e){var o=e.data;o&&200===o.status?(t.bookmarked=!0,t.bookmarkCount=o.result.value):alert(o.message)}))}},e.followTopic=function(){n.get("technology/follow/"+e.data.tech.topicId).then((function(t){var o=t.data;o&&200===o.status?(e.data.tech.followerCount+=1,e.data.tech.followed=!0):alert(o.message)}))},e.unfollowTopic=function(){n.get("technology/unfollow/"+e.data.tech.topicId).then((function(t){var o=t.data;if(!o||200!==o.status)return e.data.tech.followed=!0,void alert(o.message);e.data.tech.followerCount-=1,e.data.tech.followed=!1}))},e.loadMore=function(){if(e.data.links.currentPage>=e.data.links.lastPage)e.loadMoreElements=!1;else if(e.loadMoreElements&&e.startLoadingMoreElements){e.startLoadingMoreElements=!1,r((function(){e.startLoadingMoreElements=!0}),5e3);var o=e.data.links.currentPage+1,a=l();n.get(a+"more/"+e.data.tech.topicId+"?page="+o).then((function(n){var a=n.data;if(a&&200===a.status){var s=a.result.links;s&&s.content&&0!==s.content.length?(t.forEach(s.content,(function(t){e.data.links.content.push(t)})),r(i,0,!1),e.data.links.currentPage=o,e.data.links.lastPage=s.lastPage,e.data.links.totalElements=s.totalElements):e.loadMoreElements=!1}else alert(a.message)})).catch((function(){e.startLoadingMoreElements=!0}))}}}]),App.directive("onScrollToBottom",["$document",function(t){return{restrict:"A",link:function(e,o,n){var a=function(){window.innerHeight+window.pageYOffset>=document.body.offsetHeight-1500&&e.$applyAsync(n.onScrollToBottom)};t.on("scroll",a),e.$on("$destroy",(function(){t.off("scroll",a)}))}}}])}(window.angular);
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.min.js" async></script>
+<link rel="stylesheet" href="destatic/v3/assets/css/flaticon.css"/>
+<script defer src="destatic/v3/assets/js/custom-min.js?v=3"></script>
+</body>
+</html>
