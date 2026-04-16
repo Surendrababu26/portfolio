@@ -101,6 +101,14 @@ border-radius: 20px;
     font-weight: 700;
     position: relative;
     text-shadow: 0 0 20px rgba(49, 129, 228, 0.4);
+    font-size: clamp(1.2rem, 5vw, 2.4rem);
+    display: inline-block;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: bottom;
+    border-right: 3px solid rgb(49, 129, 228);
+    animation: typing 4s steps(16) infinite, blink 0.75s step-end infinite;
 }
 
 .sec11 p {
@@ -175,21 +183,15 @@ border-radius: 20px;
     50% { transform: translateY(-25px) rotate(2deg); }
 }
 
-.text.sec-text::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    border-left: 3px solid rgb(49, 129, 228);
-    animation: typing 4s steps(15) infinite;
+@keyframes typing {
+    0%, 10% { width: 0; }
+    50%, 80% { width: 100%; }
+    90%, 100% { width: 0; }
 }
 
-@keyframes typing {
-    40%, 60% { left: 100%; }
-    100% { left: 0%; }
+@keyframes blink {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(49, 129, 228); }
 }
 .section2 {
     display: flex;
@@ -849,7 +851,16 @@ form button:active {
         font-size: 3rem;
     }
     .sec11 h1 {
-        font-size: 1.5rem;
+        font-size: clamp(1.2rem, 4vw, 1.8rem);
+    }
+    .sec11 .sec-text {
+        white-space: normal;
+        width: auto;
+        border-right: none;
+        animation: none;
+        overflow: visible;
+        display: block;
+        margin-top: 10px;
     }
     .projects_list {
         grid-template-columns: 1fr;
