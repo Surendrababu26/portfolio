@@ -266,40 +266,43 @@ border-radius: 20px;
 
 .icons {
     display: flex;
-    gap: 20px;
+    gap: 18px;
     margin-top: 35px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
 .icons a {
-    width: 50px;
-    height: 50px;
+    width: 56px;
+    height: 56px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 50%;
+    text-decoration: none;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .icons a img {
-    width: 24px;
-    height: 24px;
-    filter: brightness(0) invert(1);
-    opacity: 0.7;
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    filter: brightness(10);
     transition: all 0.3s ease;
 }
 
 .icons a:hover {
     background: rgb(49, 129, 228);
-    transform: translateY(-8px) scale(1.1);
-    box-shadow: 0 10px 20px rgba(49, 129, 228, 0.4);
-    border-color: transparent;
+    transform: translateY(-8px) scale(1.15);
+    box-shadow: 0 12px 28px rgba(49, 129, 228, 0.5);
+    border-color: rgba(49, 129, 228, 0.6);
 }
 
 .icons a:hover img {
-    opacity: 1;
-    transform: scale(1.1);
+    filter: brightness(10);
+    transform: scale(1.15);
 }
 
 .section3 {
