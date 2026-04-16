@@ -319,72 +319,134 @@ align-items: center;
     height: 50px;
 }
 
-.section4{
+.section4 {
     width: 100%;
-    max-width: 100%;
-    height: auto;
-    padding-bottom:50px;
+    padding: 80px 20px;
+    background: transparent;
 }
-.section4 h1{
-color: rgb(49, 129, 228);
-border-bottom: solid 2px rgb(49, 129, 228);
-border-radius: 10px;
-width: 100px;
-margin-left: 50px;
+
+.section4 h1 {
+    color: rgb(49, 129, 228);
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    margin-left: 0;
+    text-align: center;
+    width: 100%;
+    border: none;
 }
-.project{
-    width: 200px;
-    height: 200px;
-    border-radius: 20px;
-    margin-top: 50px;
-    margin-left: 50px;
+
+.projects_list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.project {
     position: relative;
+    height: 320px;
+    border-radius: 24px;
     overflow: hidden;
+    background: #0a0a0a;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid rgba(255, 255, 255, 0.05);
 }
-.project:hover  div{
-    transition: height 0.3s ease-out;
-    height: 210px;
-}
-.project:hover{
-    transform: scale(1.2);
-    box-shadow:0px 0px 10px 5px rgb(49, 129, 228);
-}
-.project img{
+
+.project img {
     width: 100%;
     height: 100%;
-    border-radius: 20px;
+    object-fit: cover;
+    transition: all 0.6s ease;
 }
-.project div{
-    width:100%;
-    height:0;
-    border-radius:20px;
-    background-color: rgba(255, 255, 255, 0.316);
+
+.project div {
     position: absolute;
-    bottom: -10px;
-    left:0px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
+    backdrop-filter: blur(8px);
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    opacity: 0;
+    transition: all 0.4s ease;
+    text-align: center;
+}
+
+.project h3 {
+    color: white !important;
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    transform: translateY(20px);
+    transition: all 0.4s ease;
+}
+
+.project div a {
+    display: inline-flex;
+    text-decoration: none;
     align-items: center;
     justify-content: center;
-    font-size: 15px;
 }
-.project div a{
-    text-decoration: none;
+
+.project .link {
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+    transform: translateY(20px);
+    opacity: 0;
 }
-.project div h3{
-    color: black;
+
+.project .link img {
+    width: 22px;
+    height: 22px;
+    filter: brightness(0) invert(1);
+    object-fit: contain;
 }
-.link{
-    width: 20px;
-    height: 20px;
-    margin-bottom: -50px;
-    margin-left: -35px;
+
+/* Hover Effects */
+.project:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 20px 40px rgba(49, 129, 228, 0.25);
+    border-color: rgba(49, 129, 228, 0.4);
 }
-.projects_list{
-    max-width: 100%;
-    display: grid;
-    grid-template-columns:1fr 1fr 1fr;
-    gap:30px;
-    padding:20px;
+
+.project:hover img {
+    transform: scale(1.1);
+}
+
+.project:hover div {
+    opacity: 1;
+}
+
+.project:hover h3 {
+    transform: translateY(0);
+}
+
+.project:hover .link {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+/* Delay for the second link icon if present */
+.project:hover .link:nth-of-type(2) {
+    transition-delay: 0.1s;
+}
+
+.project .link:hover {
+    background: rgb(49, 129, 228);
+    transform: scale(1.2) translateY(-2px);
+    box-shadow: 0 0 15px rgba(49, 129, 228, 0.5);
 }
 .section5{
     width: 100%;
@@ -887,17 +949,7 @@ form button:active {
     .nav-ul{
         max-width: 400px;
     }
-    .project{
-        width: 80px;
-        height: 130px;
-    }
-    .project h3{
-        font-size: 10px;
-    }
-    .link img{
-        width: 15px;
-        height: 15px;
-    }
+
     .cert{
         width: 150px;
     }
@@ -1118,11 +1170,8 @@ display: none;
         padding-left: 0px;
         margin-left: 0px;
     }
-    .project{
-        width: 95%;
-        height: 200px;
-        padding-left: 0px;
-        margin-left: 0px;
+    .project {
+        height: 280px;
     }
     .section5{
         width: 100%;
