@@ -170,10 +170,13 @@ border-radius: 20px;
     width: 420px;
     height: 420px;
     border-radius: 50%;
-    padding: 10px;
-    background: linear-gradient(135deg, rgb(49, 129, 228), transparent 70%);
+    padding: 25px;
+    background: linear-gradient(135deg, rgb(49, 129, 228), rgba(49, 129, 228, 0.05) 80%);
     animation: float 6s ease-in-out infinite;
-    box-shadow: 0 0 60px rgba(49, 129, 228, 0.15);
+    box-shadow: 0 0 60px rgba(49, 129, 228, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sec12 img {
@@ -181,7 +184,10 @@ border-radius: 20px;
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
-    border: 8px solid black;
+    object-position: center 12%; /* Moves the image content down to reveal hair and center face */
+    border: 6px solid black;
+    filter: contrast(1.08) brightness(1.05); /* Improve clarity/sharpness of details */
+    transition: all 0.5s ease;
 }
 
 @keyframes float {
