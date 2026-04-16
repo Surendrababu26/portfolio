@@ -277,93 +277,89 @@ max-height: 100vh;
     border-radius: 50%;
 }
 
-.section3{
+.section3 {
     width: 100%;
-    height: 100vh;
-    display: flex;
+    padding: 80px 20px;
 }
-.sec31{
-    max-width: 50%;
-    width: 50%;
-    max-height: 100%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
-.iv{
-    max-width: 50%;
-    width: 50%;
-    max-height: 100%;
-}
-.sec31 h1{
-    width: 100%;
+
+.section3 h1 {
+    color: rgb(49, 129, 228);
+    font-size: 2.5rem;
     text-align: center;
+    margin-bottom: 60px;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.skill-category {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 24px;
+    padding: 30px;
+    transition: all 0.4s ease;
+}
+
+.skill-category:hover {
+    transform: translateY(-5px);
+    border-color: rgba(49, 129, 228, 0.3);
+    box-shadow: 0 10px 30px rgba(49, 129, 228, 0.1);
+}
+
+.skill-category h3 {
+    color: white;
+    font-size: 1.4rem;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(49, 129, 228, 0.3);
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.skill-item:last-child {
+    margin-bottom: 0;
+}
+
+.skill-item img {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}
+
+.icon-group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.icon-group img {
+    width: 35px;
+    height: 35px;
+}
+
+.skill-info strong {
+    display: block;
     color: rgb(49, 129, 228);
-    border-bottom:solid 3px rgb(49, 129, 228);
-    border-bottom-left-radius: 15px;
-    padding-left: 10px;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
 }
-.sec311{
-    margin-top: 20px;
-}
-.python{
-    display: flex;
-    width: 300px;
-    height: 100px;  
-}
-.py_img{
-    width: 60%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.py_img img{
-    width: 50px;
-    height: 50px;
-}
-.py_text{
-    display: flex;
-    align-items: center;
-}
-.html_icon img{
-    width: 50px;
-    height: 50px;
-    margin-left: 15px;
-}
-.section3 font{
-    color: rgb(49, 129, 228);
-}
-.sec32{
-width: 100%;
-max-width: 50%;
-height: 100vh;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-.data{
-    display: flex;
-    width: 300px;
-    height: 100px;
-    margin-top: 5px;
-}
-.sql{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60%;
-}
-.sql_text{
-    display: flex;
-    align-items: center;
-}
-.sql_text font{
-    color: rgb(49, 129, 228);
-}
-.github img{
-    width: 50px;
-    height: 50px;
+
+.skill-info p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin: 0;
 }
 
 .section4 {
