@@ -51,27 +51,7 @@ border-radius: 20px;
     font-size: 20px;
     font-weight: 500;
 }
-@media (max-width:520px) {
-    .hambarger{
-        display: block;
-        text-decoration: none;
-    }
-    .nav-ul {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-        max-height: 0;
-        transition: max-height 1s ease-out;
-    }
 
-    .nav-ul.active {
-        max-height: 350px; /* Adjust as needed */
-    }
-    nav li{
-        margin-top: 15px;
-    }
-}
 .section1 {
     display: flex;
     max-width: 100%;
@@ -721,13 +701,10 @@ form button:active {
         flex-direction: column;
     }
     .section3 {
-        flex-direction: column;
         height: auto;
     }
-    .sec31, .sec32 {
-        width: 100%;
-        max-width: 100%;
-        padding: 20px;
+    .skills-container {
+        grid-template-columns: 1fr;
     }
     .section6 {
         flex-direction: column;
