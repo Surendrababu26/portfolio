@@ -427,85 +427,133 @@ margin-left: 50px;
     justify-content: space-evenly;
     margin-top: 50px;
 }
-.section6{
+.section6 {
     width: 100%;
-    max-width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
-   
-}
-.form{
-    width: 50%;
-    max-width: 50%;
-    height:100% ;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    padding: 50px 20px;
 }
-form{
+
+.form {
+    width: 45%;
+    max-width: 500px;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 24px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+}
+
+.form h1 {
+    color: rgb(49, 129, 228);
+    margin-bottom: 30px;
+    font-size: 2.2rem;
+    text-align: center;
+    border: none; /* Removed the old border style */
+}
+
+form {
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
-.input{
-width: 200px;
-height: 50px;
-border-radius: 10px;
-border: none;
-margin-top: 20px;
-padding: 10px;
-color: black;
+
+form input, form textarea {
+    width: 100%;
+    padding: 16px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    color: white;
+    font-size: 1rem;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
-.input:focus{
-    box-shadow: 0px 0px 5px 5px white;
+
+form textarea {
+    height: 120px;
+    resize: vertical;
 }
-.input::placeholder{
+
+form input:focus, form textarea:focus {
+    outline: none;
+    border-color: rgb(49, 129, 228);
+    background: rgba(49, 129, 228, 0.05);
+    box-shadow: 0 0 0 4px rgba(49, 129, 228, 0.15);
+}
+
+form input::placeholder, form textarea::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+form button {
+    width: 100%;
+    padding: 16px;
+    background: linear-gradient(135deg, rgb(49, 129, 228) 0%, #1e5bb9 100%);
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
     margin-top: 10px;
-    margin-left: 10px;
-    color: black;
 }
-.teactarea{
-    height: 100px;
-    color: black;
-    padding: 10px;
+
+form button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(49, 129, 228, 0.3);
+    filter: contrast(1.1);
 }
-.teactarea::placeholder{
-    margin-top: 20px;
-    margin-left: 20px;
+
+form button:active {
+    transform: translateY(0);
 }
-form button{
-width: 100px;
-height: 50px;
-border-radius: 10px;
-background-color:rgb(49, 129, 228);
-color: white;
-margin-top: 20px;
-}
-.form h1{
-    color:rgb(49, 129, 228);
-}
-.contact{
-    width: 50%;
-    max-width: 50%;
-    max-height: 100%;
+
+.contact {
+    width: 45%;
+    max-width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.contact h1{
-    color:rgb(49, 129, 228);
+
+.contact h1 {
+    color: rgb(49, 129, 228);
+    margin-bottom: 25px;
+    font-size: 2.2rem;
 }
-.cont{
+
+.cont {
     display: flex;
     flex-direction: column;
+    gap: 15px;
 }
-.cont a{
+
+.cont a {
     text-decoration: none;
-    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 20px;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
 }
-.cont a img{
-    width: 25px;
-    height: 25px;
+
+.cont a:hover {
+    background: rgba(49, 129, 228, 0.1);
+    border-color: rgba(49, 129, 228, 0.3);
+    transform: translateX(10px);
+}
+
+.cont a img {
+    width: 24px;
+    height: 24px;
+    filter: drop-shadow(0 0 5px rgba(49, 129, 228, 0.5));
 }
 @media (max-width:750px) {
     .sec12 div{
@@ -859,36 +907,18 @@ margin-top: 20px;
         height:auto;
         min-height:150px;
     }
-    .form h1{
-        font-size: 15px;
+    .form h1 {
+        font-size: 1.8rem;
     }
-    .form input{
-        width: 100px;
-        height: 25px;
+    .form {
+        padding: 25px;
     }
-    .form input::placeholder{
-        font-size: 10px;
+    .cont h1 {
+        font-size: 1.8rem;
     }
-    .teactarea{
-        width: 100px;
-    }
-    .teactarea::placeholder{
-        font-size: 10px;
-    }
-    .form button{
-        width: 50px;
-        height: 30px;
-        font-size: 10px;
-    }
-    .cont h1{
-        font-size: 15px;
-    }
-    .cont a{
-        font-size: 10px;
-    }
-    .cont img{
-        width: 15px;
-        height: 15px;
+    .cont a {
+        padding: 12px 15px;
+        gap: 10px;
     }
     .section4{
         height: auto;
@@ -940,15 +970,16 @@ margin-top: 20px;
     height: 20px;
  }
 @media (max-width:440px) {
-    .section6{
+    .section6 {
         flex-direction: column;
-        align-items: center;
+        gap: 60px;
+        padding: 60px 20px;
         height: auto;
-        margin-top: 20px;
-        padding-bottom: 25px;
     }
-    .form{
-       height: auto;
+    .form {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
     }
     .section1{
         flex-direction: column;
@@ -1116,50 +1147,35 @@ display: none;
     .cert p{
         font-size: 12px;
     }
-    .form{
+    .form {
         width: 100%;
-        max-width: 100%;
-        display: flex;
+        margin-top: 0;
+    }
+    .form h1 {
+        font-size: 1.8rem;
+    }
+    .form button {
+        height: 55px;
+        font-size: 1rem;
+    }
+    .form form {
+        width: 100%;
+    }
+    .contact {
+        width: 100%;
+    }
+    .cont {
+        margin-top: 0;
+        width: 100%;
+        margin-left: 0;
+    }
+    .cont h1 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .cont a {
+        font-size: 0.9rem;
         justify-content: center;
-        margin-top: 10%;
-    }
-    .form h1{
-        font-size: 25px;
-    }
-    .form input{
-        height: 50px;
-    }
-    .form button{
-        height: 50px;
-        font-size: 18px;
-        width: 100px;
-    }
-    .form form{
-        width: 90%;
-        max-width: 100%;
-    }
-    .form input,.teactarea{
-        width: 100%;
-    }
-    .contact{
-        width: 100%;
-        max-width: 100%;
-    }
-    .cont{
-        margin-top: 30px;
-        width: 90%;
-        max-width: 100%;
-        margin-left: 10%;
-    }
-    .cont h1{
-        font-size: 25px;
-    }
-    .cont a img{
-        height: 40px;
-        width: 40px;
-    }
-    .cont a{
-        font-size: 15px;
     }
 }
 @media (max-width:850px) {
